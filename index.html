@@ -1,0 +1,32 @@
+.<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Moonlight Crystals</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="./css/reset.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="./css/main.css" />
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+
+</head>
+<body class="b-g font">
+    <div class="t-a-c overlay">
+        <div>
+            <img src="./images/moon.png"/>
+        </div>
+        <h1 class"f-s5 font">Moonlight Crystals</h1>
+        <div class"f-s1 font">Find full alignment by matching the given number to the values the crystals hold.</div>
+        <div>match this number:</div><span id="random-number"></span>
+        <div><img class="shadow js-shadow js-crystal" id="crystal1" src="./images/amethyst.png"/ height="100px" width="100px">
+             <img class="shadow js-shadow js-crystal" id="crystal2" src="./images/labradorite.png"/ height="100px" width="100px">
+             <img class="shadow js-shadow js-crystal" id="crystal3" src="./images/opal.png"/ height="100px" width="100px">
+             <img class="shadow js-shadow js-crystal" id="crystal4" src="./images/rose_quartz.png"/ height="100px" width="100px">
+        </div>
+        <div class"f-s1 font">Correct Alignments</div><span id="wins"></span>
+        <div class"f-s1 font">Incorrect Alignments</div><span id="losses"></span>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
